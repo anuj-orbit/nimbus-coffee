@@ -3,15 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>App Template</title>
-  <style>
-    body { font-family: system-ui, sans-serif; max-width: 640px; margin: 64px auto; padding: 0 16px; line-height: 1.6; color: #1b1f24; }
-    code { background: #eef0f3; padding: 2px 5px; border-radius: 4px; }
-  </style>
+  <title>Nimbus Coffee — Something warm is brewing</title>
+  <meta name="description" content="Nimbus Coffee is almost here. Cloud-soft coffee, brewed warm. Join the list to be the first to know when we open.">
+  <meta name="theme-color" content="#FFF8EE">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nimbus Coffee — Something warm is brewing.">
+  <meta property="og:description" content="Cloud-soft coffee, brewed warm. Join the list for launch news.">
+  <meta property="og:image" content="assets/cup.svg">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>It works</h1>
-  <p>This app was created from <code>anuj-orbit/app-template</code> and deployed by Coolify.</p>
-  <p>Status: <a href="/health">/health</a></p>
+  <a class="skip" href="#signup-email">Skip to signup</a>
+  <div class="clouds" aria-hidden="true"><span class="cloud c1"></span><span class="cloud c2"></span><span class="cloud c3"></span></div>
+  <div class="page">
+    <header class="brand">
+      <img src="assets/favicon.svg" alt="" width="36" height="36">
+      <span class="wordmark">Nimbus Coffee</span>
+    </header>
+    <main class="hero">
+      <div class="copy">
+        <p class="eyebrow">Coming soon</p>
+        <h1>Something warm is brewing.</h1>
+        <p class="sub">Cloud-soft coffee, roasted slow and poured with care. Leave your email and we’ll let you know the moment the doors open.</p>
+        <form id="signup" class="signup" novalidate>
+          <label for="signup-email">Email address</label>
+          <div class="row">
+            <input id="signup-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required aria-describedby="signup-status" maxlength="254">
+            <button type="submit" id="signup-btn"><span class="btn-label">Notify me</span><span class="spinner" aria-hidden="true"></span></button>
+          </div>
+          <p id="signup-status" class="status" role="status" aria-live="polite"></p>
+        </form>
+        <p class="fine">No spam. Just one note when we launch.</p>
+      </div>
+      <div class="art">
+        <img src="assets/cup.svg" alt="A coffee cup shaped like a cloud, with steam rising" width="320" height="300">
+      </div>
+    </main>
+    <footer><p>© <span id="year">2026</span> Nimbus Coffee. Brewed with care.</p></footer>
+  </div>
+  <script src="app.js" defer></script>
 </body>
 </html>

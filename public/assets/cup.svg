@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 300" role="img" aria-labelledby="t"><title id="t">A coffee cup shaped like a cloud, with rising steam</title>
+<ellipse cx="160" cy="278" rx="120" ry="12" fill="#E9D5BA"/>
+<g fill="none" stroke="#C98B4B" stroke-width="6" stroke-linecap="round" class="steam"><path d="M120 70c-14-16 14-26 0-44"/><path d="M160 62c-14-16 14-26 0-44"/><path d="M200 70c-14-16 14-26 0-44"/></g>
+<path d="M258 150c36-4 48 34 14 54-10 6-22 8-32 8" fill="none" stroke="#4A2E1F" stroke-width="12" stroke-linecap="round"/>
+<path d="M62 118c-24 0-36 22-26 40-12 8-14 26-4 36 4 4 8 6 12 8 6 40 38 66 80 66h72c42 0 74-26 80-66 14-6 22-22 14-36-6-10-14-14-22-14 4-20-10-38-30-38-6 0-12 2-16 4-10-14-26-20-42-20-18 0-32 8-42 20-6-4-14-6-24-6-8 0-16 2-22 6-6-4-12-4-18-4z" fill="#FFFFFF" stroke="#4A2E1F" stroke-width="6" stroke-linejoin="round"/>
+<path d="M60 172c20 14 48 20 100 20s80-6 100-20c-2 6-4 14-8 20-14 14-48 22-92 22s-78-8-92-22c-4-6-6-14-8-20z" fill="#C98B4B"/>
+<path d="M60 172c20 14 48 20 100 20s80-6 100-20" fill="none" stroke="#4A2E1F" stroke-width="6" stroke-linecap="round"/>
+<circle cx="130" cy="236" r="5" fill="#4A2E1F"/><circle cx="190" cy="236" r="5" fill="#4A2E1F"/><path d="M148 246q12 10 24 0" fill="none" stroke="#4A2E1F" stroke-width="5" stroke-linecap="round"/>
+</svg>
